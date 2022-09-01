@@ -1,0 +1,148 @@
+html , body{
+    margin: 0px;
+}
+
+body{
+    width:auto ;
+    height: 768px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display:flex;
+    
+    width:auto;
+    height: 50px;
+    background-color: #1F2937;
+    padding-bottom: 5px;
+    border-bottom: 2px solid ;
+    border-color: #E5E7EB;
+
+
+}
+.secOne{
+    display: inline-flex;
+    flex-direction: row;
+    max-height: 450px;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    padding: 15px 0px;
+
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: start;
+    height:auto;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    color:#F9FAF8;
+}
+
+.linky { 
+ display:flex;
+ margin-left: auto;
+ margin-right: 5px;
+}
+a{
+    margin:10px;
+}
+.logo{
+    align-self: center;
+    font-size:24px;
+    font-weight: 900;
+    font-style: italic;
+    color:#F9FAF8;
+    margin-left: 235px;
+}
+.signup{
+
+    height: 35px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F9FAF8;
+}
+img{
+    height: 200px;
+    width: auto;
+}
+.awe{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+img.pic{
+    
+    justify-content: flex-star;
+    margin-left: -150px;
+
+
+}
+.sectwo{
+    background-color: #F9FAF8;
+    height: 320px;
+}
+.types{
+    height: 200px;
+    width: 1335px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    gap:10px;
+    text-align: center;
+    flex: 1 1 auto;
+    
+  
+    }
+    .division{
+        display: flex;
+        flex-direction: column;
+    }
+.types img{
+    border: 2px solid ;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px;
+}
+.text-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 10px 0px;
+}
+.secthree{
+    height: 200px;
+    width: 1335px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    
+}
+.text3{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    
+}
