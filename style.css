@@ -126,7 +126,7 @@ img.pic{
 }
 .secthree{
     height: 200px;
-    width: 1335px;
+    
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -146,3 +146,65 @@ img.pic{
     margin-right: 40px;
     
 }
+.secfour{
+    height:250px;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluey{
+    height: 125px;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid ;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px;
+}
+.signup1{
+
+    height: 35px;
+    background-color: #3882F6;
+    border-color:#F9FAF8 ;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F9FAF8;
+    margin: 5px;
+    margin-left: 25px;
+}
+.high{
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-right: 3px;
+    
+}
+.highl{
+   margin-left: -50px;
+}
+.footer{
+    display:flex;
+    
+    width:auto;
+    height: 50px;
+    background-color: #1F2937;
+    padding-bottom: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+}
+.linky,
+a:link {
+    text-decoration: none;
+    color: #F9FAF8;
+  }
+  a{
+    color: #F9FAF8;
+  }
